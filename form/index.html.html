@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    
+    <title>Document</title>
+</head>
+<body class="bdy">
+<button class="mbtn">dark mode</button>
+<button class="wbtn">light mode</button>
+
+
+    <fieldset class="x">
+    <legend>Registration and Sign-in Forms</legend>
+    <div>
+    <button class="btn" type="button" id="upbtn">sign up</button>
+    <button class="btn" type="button" id="inbtn">sign in</button>
+</div>
+    <form id="firstform" class="group" action="" method="post">
+        <h2>Sign Up Form</h2>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="fullname" required>
+        <label for="uname">Username:</label>
+        <input type="text" id="uname" name="Username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Submit">
+      
+    </form>
+
+    <form id="secondform"  class="group" action="" method="post">
+        <h2>Sign in Form</h2>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="Email" required>
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required>
+        <input type="submit" value="Submit">
+    </form>
+
+</fieldset>
+<script src="form.js"></script>
+</body>
+</html>
